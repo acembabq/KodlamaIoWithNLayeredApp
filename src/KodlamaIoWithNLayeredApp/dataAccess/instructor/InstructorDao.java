@@ -4,4 +4,5 @@ import KodlamaIoWithNLayeredApp.entities.Instructor;
 
 public interface InstructorDao {
 	void getInstructors(Instructor[] instructors);
+	void add(Instructor instructor);
 }
